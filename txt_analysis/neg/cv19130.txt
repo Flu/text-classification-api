@@ -1,1 +1,0 @@
-mounting tmp on ram is a way to make things faster i guess

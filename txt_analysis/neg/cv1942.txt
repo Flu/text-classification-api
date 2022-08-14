@@ -1,1 +1,0 @@
-i value writing only the dir name, not the "cd" in front of it too, plus better autocompletion and correction when misspelling a name

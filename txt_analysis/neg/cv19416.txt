@@ -1,1 +1,0 @@
-and don't allow vowels or consonants from the original that is being replaced

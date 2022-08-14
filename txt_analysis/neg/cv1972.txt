@@ -1,1 +1,0 @@
-on my system: "     sh is a POSIX-compliant command interpreter (shell).  It is implemented
