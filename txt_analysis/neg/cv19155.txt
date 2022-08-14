@@ -1,0 +1,1 @@
+but from that live Manjaro USB I can only install on the internal hard disk, not in yet a different USB stick

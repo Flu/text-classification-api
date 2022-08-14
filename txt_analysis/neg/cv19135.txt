@@ -1,0 +1,1 @@
+I changed the downloading subdirectory in my BASH script, problem solved

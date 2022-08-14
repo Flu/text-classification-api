@@ -1,0 +1,1 @@
+does ls -l not show links in bsd? or what

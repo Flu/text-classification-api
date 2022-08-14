@@ -1,0 +1,1 @@
+NetBSD does not even allow for the user to set BASH as the default shell!!!

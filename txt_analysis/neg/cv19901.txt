@@ -1,0 +1,1 @@
+https://pypi.org/project/cleverbot-scrapper/0.1/

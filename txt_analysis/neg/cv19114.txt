@@ -1,0 +1,1 @@
+I have in mind Debian's desupporting 32-bit

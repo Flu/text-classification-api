@@ -1,0 +1,1 @@
+ll is not a command usually, it's an alias

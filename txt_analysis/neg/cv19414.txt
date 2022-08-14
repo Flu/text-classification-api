@@ -1,0 +1,1 @@
+replace one consonant with any of a-z

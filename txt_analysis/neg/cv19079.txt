@@ -1,0 +1,1 @@
+I use it for converting binary data into sound, then sound back into data

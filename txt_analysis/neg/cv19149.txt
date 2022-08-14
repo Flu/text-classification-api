@@ -1,0 +1,1 @@
+I would like to have my own 64-bit, portable, persistent, Manjaro install on a USB stick, so I can use for example even my wife's PC

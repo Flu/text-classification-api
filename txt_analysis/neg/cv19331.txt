@@ -1,0 +1,1 @@
+because all verbs of a class will transform in the same way

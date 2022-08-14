@@ -1,0 +1,1 @@
+       rate, using various framing protocols.  It acts a general-purpose software FSK modem,  and  includes  support

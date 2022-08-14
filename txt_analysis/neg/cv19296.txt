@@ -1,0 +1,1 @@
+if the new string contains hanb, the trigger will fire
