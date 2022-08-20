@@ -1,1 +1,0 @@
-the non-bourne shell, yes, the one everyone keeps for legacy reasons

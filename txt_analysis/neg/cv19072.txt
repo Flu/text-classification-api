@@ -1,1 +1,0 @@
-       Minimodem  is  a  command-line  program  which decodes (or generates) audio modem tones at any specified baud

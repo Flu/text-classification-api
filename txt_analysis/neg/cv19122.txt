@@ -1,1 +1,0 @@
-ever since I de-activated that ram process in Manjaro, my 64-bit PC runs way better

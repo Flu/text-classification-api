@@ -1,1 +1,0 @@
-mattf: sure, but... can Tiny Core run the latest version of OpenSSH.......?

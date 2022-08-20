@@ -1,1 +1,0 @@
-weechat lets you set up triggers for anythin

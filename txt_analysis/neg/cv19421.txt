@@ -1,1 +1,0 @@
-take in any string, locate one consonant and one vowel

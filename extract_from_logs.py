@@ -1,11 +1,13 @@
 import os
 import sys
 import re
+import pandas as pd
 
 
 # Process each line and extract only the message, ignore the name and timestamp
 def process_line(line: str) -> str:
-    ret = re.search(r"<[\s\S]+> (.*)", line)
+    ret = re.sub(r'\t', '', line)
+    ret = re.search(r"<[\s\S]+> (.*)", ret)
     if ret is not None:
         return ret.group(1)
     return None
@@ -30,8 +32,9 @@ def extract_from_logs(filename: str) -> list[str]:
 # Create negative examples from the lines of the IC logs
 def create_neg_files(preprocessed_lines: list[str], output_dir: str):
     for i, line in enumerate(preprocessed_lines):
-        with open(os.path.join(output_dir, "cv" + str(i) + '.txt'), 'w') as f:
-            f.write(line)
+        # open file and write the line and a 0 separated by tab
+        with open(os.path.join(output_dir, 'data.csv'), 'a') as f:
+            f.write(line + '\t0\n')
 
 # Create prositive files by taking user input from the console and writing it to a file
 def create_pos_files(output_dir: str):
@@ -39,8 +42,8 @@ def create_pos_files(output_dir: str):
         line = input("Enter a line: ")
         if line == "":
             break
-        with open(os.path.join(output_dir, "cv" + str(len(os.listdir(output_dir))) + '.txt'), 'w') as f:
-            f.write(line)
+        with open(os.path.join(output_dir, 'data.csv'), 'a') as f:
+            f.write(line + '\t2\n')
 
 # start the main function
 
@@ -60,3 +63,7 @@ if __name__ == "__main__":
     create_pos_files(output_pos_dir)
 
     sys.exit(0)
+
+# function that adds two numbers
+def add(x, y):
+    return x + y

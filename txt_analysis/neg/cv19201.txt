@@ -1,1 +1,0 @@
-so, do you think I can dd the installer on one USB stick, then install it persistent in a different USB stick?

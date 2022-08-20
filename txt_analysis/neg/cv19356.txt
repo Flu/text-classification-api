@@ -1,1 +1,0 @@
-all of the Sanskrit consonants form a 2D matrix

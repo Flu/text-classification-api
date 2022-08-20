@@ -1,1 +1,0 @@
-I do not defend BASH, or Vim, but now I am a hardcore BASH and Vim user, only because those were my first shell and text editor... I am too used to those to really adopt others

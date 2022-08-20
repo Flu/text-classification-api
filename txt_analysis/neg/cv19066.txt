@@ -1,1 +1,0 @@
-minimodem is an application that converts binary data into sound, then sound back into data
