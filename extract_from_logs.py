@@ -43,7 +43,7 @@ def create_pos_files(output_dir: str):
         if line == "":
             break
         with open(os.path.join(output_dir, 'data.csv'), 'a') as f:
-            f.write(line + '\t0\n')
+            f.write(line + '\t2\n')
 
 # start the main function
 
@@ -63,3 +63,7 @@ if __name__ == "__main__":
     create_pos_files(output_pos_dir)
 
     sys.exit(0)
+
+# function that adds two numbers
+def add(x, y):
+    return x + y
